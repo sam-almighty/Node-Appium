@@ -8,7 +8,7 @@ var wd = require('wd'),
         name: 'Sample Test',
         app: 'http://appium.s3.amazonaws.com/ContactManager.apk'
     },
-    driver = wd.remote("https://" + "YOUR_SAUCE_USERNAME" + ":" + "YOUR_SAUCE_ACCESS_KEY" + "@" + "ondemand.saucelabs.com:443/wd/hub");
+    driver = wd.remote("https://" + "nostanle" + ":" + "5631607a-dccd-4bc2-8f96-50ce1f84058c" + "@" + "ondemand.saucelabs.com:443/wd/hub");
 
 driver.init(desiredCaps, function(error) {
     if (error) {
